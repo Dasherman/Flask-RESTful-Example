@@ -126,7 +126,7 @@ class kNN(object):
 # In[75]:
 
 
-data = pd.read_csv(pad+'insurance.csv')
+data = pd.read_csv('insurance.csv')
 
 
 # In[76]:
@@ -166,7 +166,7 @@ model.kNN.n_neighbors
 # In[83]:
 
 
-model.pickle(pad+out)
+model.pickle(out)
 
 
 # In[ ]:
