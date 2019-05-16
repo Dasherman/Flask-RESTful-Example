@@ -21,9 +21,6 @@ np.random.seed(0)
 # In[18]:
 
 
-pad = 'C:/Users/Don Vu/Documents/Test/REST API/'
-
-
 # In[74]:
 
 
