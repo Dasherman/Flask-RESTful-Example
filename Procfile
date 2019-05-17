@@ -1,1 +1,1 @@
-web: gunicorn flaskapi:app
+web: uwsgi uwsgi.ini
