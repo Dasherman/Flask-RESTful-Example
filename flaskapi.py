@@ -50,7 +50,10 @@ class PredictCharge(Resource):
         args = parser.parse_args()
         query = args['query']
         
-        X = read_data(query)
+        try:
+        	X = read_data(query)
+        except:
+            return
         
         pred = model.pred(X)
         
